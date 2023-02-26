@@ -8,6 +8,7 @@ exports.createUser = ({username,password})=>{
     })
 
     return user.save()
+    
 }
 
 exports.getusers = ()=>{

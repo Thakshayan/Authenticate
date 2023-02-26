@@ -2,12 +2,15 @@ POST http://localhost:3000/user
 content-type:application/json
 
 {
-    "username": "user",
+    "username": "user2",
     "password":"password"
 }
 
 ###
 GET http://localhost:3000/user
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7InVzZXJuYW1lIjoidXNlciJ9LCJ0eXBlIjoiYXV0aG9yaXphdGlvbiIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNjc3Mzg4OTcwLCJleHAiOjE2NzczOTI1NzB9.61jvyxiD8OPKfTFZCz91mSxv0prXRrVBRARTzyFXbao
+x-refresh-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7InVzZXJuYW1lIjoidXNlciJ9LCJ0eXBlIjoiYXV0aG9yaXphdGlvbiIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNjc3Mzg4OTcwLCJleHAiOjE2Nzc4MjA5NzB9.6ltfUC3qmJ0zwJzKCIbiMdRlYGLrWkwg7HL3LLoYODQ
+
 
 
 
